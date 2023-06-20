@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Formularios</h1>
+      <h2>Auto fill</h2>
+      <form>
+        <div>
+          <label for="firstName">First Name:</label>
+          <input
+            name="firstName"
+            id="firstName"
+            type="text"
+            autocomplete="given-name"
+          />
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input
+            name="lastName"
+            id="lastName"
+            type="text"
+            autocomplete="family-name"
+          />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input name="email" id="email" type="email" autocomplete="off" />
+        </div>
+        <div>
+          <button type="submit">Send</button>
+        </div>
+        <output></output>
+      </form>
+    </section>
+    <script src="index.js" defer></script>
+  </body>
+</html>

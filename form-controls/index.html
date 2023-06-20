@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <section>
+      <h1>Formularios</h1>
+      <h2>Controles</h2>
+      <form>
+        <div>
+          <input type="checkbox" name="subscribe" id="subscribe" />
+          <label for="subscribe">Subscribe to my channel</label>
+        </div>
+        <div>
+          <fieldset>
+            <legend>What is your favorite web technology</legend>
+            <input type="radio" name="webfeature" value="html" id="html" />
+            <label for="html">HTML</label>
+
+            <input type="radio" name="webfeature" value="css" id="css" />
+            <label for="css">CSS</label>
+          </fieldset>
+        </div>
+        <div>
+          <label for="languages"
+            >What is your favorite programming language
+          </label>
+          <select class="select-css" name="languages" id="languages">
+            <option value="">Select an option</option>
+            <option value="js" selected>Javascript</option>
+            <option value="phyton">Phyton</option>
+            <option value="php">PHP</option>
+            <option value="java">JAVA</option>
+            <option value="c">C</option>
+            <option value="net">.Net</option>
+          </select>
+        </div>
+        <div>
+          <label for="file">Upload an image</label>
+          <input
+            class="file-input"
+            id="file"
+            type="file"
+            name="fileupload"
+            accept="image/*"
+          />
+        </div>
+        <button type="submit">Submit</button>
+        <output></output>
+      </form>
+    </section>
+    <script src="index.js" defer></script>
+  </body>
+</html>

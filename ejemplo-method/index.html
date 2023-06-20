@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo Dialogo</title>
+  </head>
+  <body>
+    <div>
+        <!-- button shown the dialog -->
+      <button id="showDialog">Show the dialog</button>
+    </div>
+    <div>
+        <!-- output  -->
+      <output></output>
+    </div>
+
+    <dialog id="confirmationModal">
+      <form method="dialog">
+        <p>Would you like to continue?</p>
+        <button type="submit" value="no">No</button>
+        <button type="submit" value="yes">Yes</button>
+      </form>
+    </dialog>
+    <script src="index.js" defer></script>
+  </body>
+</html>
